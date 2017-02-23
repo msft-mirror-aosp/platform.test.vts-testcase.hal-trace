@@ -1,0 +1,5191 @@
+timestamp: 2422182776761
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "open"
+  arg {
+    type: TYPE_HIDL_CALLBACK
+  }
+}
+
+timestamp: 2422185375199
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "open"
+  arg {
+    type: TYPE_HIDL_CALLBACK
+  }
+}
+
+timestamp: 2422332830214
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "open"
+  return_type_hidl {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2422333008235
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "open"
+  return_type_hidl {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2422332932141
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendEvent"
+  arg {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+  arg {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2422334667662
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422334864172
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422335069016
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendEvent"
+}
+
+timestamp: 2422335366256
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2422335510266
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2422363577769
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 17
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422365734436
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422366251415
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2422366605738
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2422367125113
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 3
+    }
+  }
+}
+
+timestamp: 2422367298342
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 3
+    }
+  }
+}
+
+timestamp: 2422368293915
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 25
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 30
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 8
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 130
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 131
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 208
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 152
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 16
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+  }
+}
+
+timestamp: 2422369900269
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422370105426
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "coreInitialized"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 25
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 30
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 8
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 130
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 131
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+  }
+}
+
+timestamp: 2422370295686
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "coreInitialized"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 25
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 30
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 8
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 130
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 131
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+  }
+}
+
+timestamp: 2422400170689
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "coreInitialized"
+  return_type_hidl {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2422400572148
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "coreInitialized"
+  return_type_hidl {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2422400695898
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendEvent"
+  arg {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 2
+    }
+    scalar_type: "uint32_t"
+  }
+  arg {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2422401034387
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendEvent"
+}
+
+timestamp: 2422401571314
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+  }
+}
+
+timestamp: 2422401709908
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+  }
+}
+
+timestamp: 2422402332825
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 13
+    }
+  }
+}
+
+timestamp: 2422402416210
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 13
+    }
+  }
+}
+
+timestamp: 2422417247045
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 65
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2422417988764
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422418086368
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 14
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 81
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 8
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 254
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 88
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+  }
+}
+
+timestamp: 2422418226681
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 14
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 81
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 8
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 254
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 88
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+  }
+}
+
+timestamp: 2422418981056
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 17
+    }
+  }
+}
+
+timestamp: 2422419115274
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 17
+    }
+  }
+}
+
+timestamp: 2422425728817
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2422426203192
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422426557463
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 34
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422426674650
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 34
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422427046681
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2422427121890
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2422430517880
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 66
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422430974390
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422431569390
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 98
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2422432029807
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422433249026
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 34
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422433462359
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 34
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422433995328
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 5
+    }
+  }
+}
+
+timestamp: 2422434298870
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 5
+    }
+  }
+}
+
+timestamp: 2422437491057
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 66
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2422438157724
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422438185849
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422438285745
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422438848037
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 9
+    }
+  }
+}
+
+timestamp: 2422438951006
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 9
+    }
+  }
+}
+
+timestamp: 2422439518662
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+  }
+}
+
+timestamp: 2422440141526
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422440287568
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422440450485
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422440895381
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 6
+    }
+  }
+}
+
+timestamp: 2422440998766
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 6
+    }
+  }
+}
+
+timestamp: 2422442054027
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 96
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422443086266
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422443947569
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 10
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 191
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 18
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 85
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 85
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 188
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 18
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 85
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 85
+      }
+    }
+  }
+}
+
+timestamp: 2422445386735
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+  }
+}
+
+timestamp: 2422445528037
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+  }
+}
+
+timestamp: 2422445696787
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422446172725
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 8
+    }
+  }
+}
+
+timestamp: 2422446261840
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 8
+    }
+  }
+}
+
+timestamp: 2422446844756
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 96
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2422447282881
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2422447820538
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+  }
+}
+
+timestamp: 2422448206111
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424505153138
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 34
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424505803868
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 34
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424506414180
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2424506855587
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2424507591524
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 66
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424509535743
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424511342202
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+  }
+}
+
+timestamp: 2424511938972
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+  }
+}
+
+timestamp: 2424527959182
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 6
+    }
+  }
+}
+
+timestamp: 2424528396839
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 96
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424530416943
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424530777985
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 6
+    }
+  }
+}
+
+timestamp: 2424532247829
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 129
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424533879339
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424587002417
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 82
+      }
+    }
+  }
+}
+
+timestamp: 2424587861636
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 82
+      }
+    }
+  }
+}
+
+timestamp: 2424588828563
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 5
+    }
+  }
+}
+
+timestamp: 2424589052626
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 5
+    }
+  }
+}
+
+timestamp: 2424590116012
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 82
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+  }
+}
+
+timestamp: 2424591609762
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424594345074
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 197
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424594800335
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 197
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424595804450
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 7
+    }
+  }
+}
+
+timestamp: 2424596019241
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 7
+    }
+  }
+}
+
+timestamp: 2424596896325
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 9
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 197
+      }
+    }
+  }
+}
+
+timestamp: 2424598084710
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424630423307
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 185
+      }
+    }
+  }
+}
+
+timestamp: 2424630765755
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 185
+      }
+    }
+  }
+}
+
+timestamp: 2424631657057
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 5
+    }
+  }
+}
+
+timestamp: 2424632087995
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 5
+    }
+  }
+}
+
+timestamp: 2424633051901
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 9
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 185
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424634538516
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424635703985
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 27
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+  }
+}
+
+timestamp: 2424636255652
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 27
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+  }
+}
+
+timestamp: 2424637887787
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 30
+    }
+  }
+}
+
+timestamp: 2424638156016
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 30
+    }
+  }
+}
+
+timestamp: 2424641584350
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 65
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424642958777
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424643930444
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 23
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 41
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 20
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 70
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 102
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 109
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 18
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 19
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 100
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+  }
+}
+
+timestamp: 2424644406277
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 23
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 41
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 20
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 70
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 102
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 109
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 18
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 255
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 19
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 100
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 7
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+  }
+}
+
+timestamp: 2424646010965
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 26
+    }
+  }
+}
+
+timestamp: 2424646231278
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 26
+    }
+  }
+}
+
+timestamp: 2424652529403
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424653724195
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424654074091
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 16
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 48
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 49
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 50
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 56
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 80
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424654526278
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 16
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 48
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 4
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 49
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 50
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 56
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 80
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424655832737
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 19
+    }
+  }
+}
+
+timestamp: 2424655994612
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 19
+    }
+  }
+}
+
+timestamp: 2424671530707
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424673443468
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 244
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424673781384
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 32
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 244
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424674169978
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424674506541
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 8
+    }
+  }
+}
+
+timestamp: 2424674636749
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 8
+    }
+  }
+}
+
+timestamp: 2424678190395
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 64
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424679163416
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2424679203312
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "prediscover"
+}
+
+timestamp: 2424679607166
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "prediscover"
+}
+
+timestamp: 2424679804198
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "prediscover"
+  return_type_hidl {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2424679928260
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "prediscover"
+  return_type_hidl {
+    type: TYPE_ENUM
+    scalar_value {
+      uint32_t: 0
+    }
+    scalar_type: "uint32_t"
+  }
+}
+
+timestamp: 2424680604406
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424680899093
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 5
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 2
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 128
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+  }
+}
+
+timestamp: 2424681719094
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 8
+    }
+  }
+}
+
+timestamp: 2424681967479
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 8
+    }
+  }
+}
+
+timestamp: 2424683267115
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 65
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 3
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2424684842063
+event: CLIENT_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+}
+
+timestamp: 2586640044134
+event: SERVER_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2586640274863
+event: PASSTHROUGH_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 33
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
+timestamp: 2586642429551
+event: PASSTHROUGH_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2586642610697
+event: SERVER_API_EXIT
+package: "android.hardware.nfc"
+version: 1
+interface: "INfc"
+func_msg {
+  name: "write"
+  return_type_hidl {
+    type: TYPE_SCALAR
+    scalar_value {
+      uint32_t: 4
+    }
+  }
+}
+
+timestamp: 2586647957780
+event: CLIENT_API_ENTRY
+package: "android.hardware.nfc"
+version: 1
+interface: "INfcClientCallback"
+func_msg {
+  name: "sendData"
+  arg {
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 65
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 6
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 1
+      }
+    }
+    vector_value {
+      type: TYPE_SCALAR
+      scalar_value {
+        uint8_t: 0
+      }
+    }
+  }
+}
+
